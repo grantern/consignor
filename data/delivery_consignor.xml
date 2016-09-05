@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data noupdate="1">
+
+    <record id="consignor_partner" model="res.partner">
+        <field name="name">Consignor AS</field>
+        <field name="is_company" eval="True"/>
+        <field name="supplier" eval="True"/>
+        <field name="customer" eval="False"/>
+        <field name="street">RÅDHUSGATA 4</field>
+        <field name="zip">0151</field>
+        <field name="city">Oslo</field>
+        <field name="website">http://www.consignor.no/</field>
+        <field name="country_id" ref="base.no"/>
+        <field name="email">SALES.NO@CONSIGNOR.COM</field>
+        <field name="phone">+47 23 24 94 80</field>
+    </record>
+
+</data>
+</odoo>
