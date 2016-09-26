@@ -8,8 +8,8 @@
     'version': '1.0',
     'depends': ['delivery', 'mail'],
     'data': [
-        'data\delivery_consignor.xml',
-        'views\delivery_consignor.xml',
+        'data/delivery_consignor.xml',
+        'views/delivery_consignor.xml',
     ],
     'application': True,
     'installable': True,
